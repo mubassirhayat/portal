@@ -9,15 +9,15 @@
             <li>
                 <a class="{{ Request::is('forum*') ? 'active' : null }}" href="{{ action('Forum\ForumThreadsController@getIndex') }}">Forum</a>
             </li>
-            <li>
+            {{-- <li>
                 <a href="https://larajobs.com?partner=28">Jobs</a>
-            </li>
-            <li>
+            </li> --}}
+            {{-- <li>
                 <a class="{{ Request::is('chat*') ? 'active' : null }}" href="{{ action('ChatController@getIndex') }}">Live Chat</a>
-            </li>
-            <li>
+            </li> --}}
+            {{-- <li>
                 <a href="http://paste.laravel.io">Pastebin</a>
-            </li>
+            </li> --}}
             <li>
                 <a href="http://www.laravelpodcast.com">Podcast</a>
             </li>
