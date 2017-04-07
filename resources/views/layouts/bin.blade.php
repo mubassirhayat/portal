@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>TES Froum - KP Techies Community Portal</title>
+    <title>TES Forum - KP Techies Community Portal</title>
 
     @section('styles')
       <link rel="stylesheet" href="{{ asset('stylesheets/app.css') }}">
