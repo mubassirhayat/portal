@@ -33,7 +33,7 @@
                       g  <p>Please fill in the captcha field correctly.</p>
                     @endif
 
-                    {!! Form::submit('Create My Laravel.io Account', ['class' => 'button']) !!}
+                    {!! Form::submit('Create My TES Forum Account', ['class' => 'button']) !!}
                 </div>
             {!! Form::close() !!}
         </div>

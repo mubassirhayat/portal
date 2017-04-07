@@ -40,8 +40,8 @@
             <div class="padding">
                 {!! Form::open(['action' => 'Forum\ForumThreadsController@getSearch', 'method' => 'GET']) !!}
                     <div class="form-row">
-                        {!! Form::label('query', 'Search the laravel.io forum', ['class' => 'field-title']) !!}
-                        {!! Form::text('query', null, ['placeholder' => 'search the laravel.io forum']) !!}
+                        {!! Form::label('query', 'Search the TES Forum', ['class' => 'field-title']) !!}
+                        {!! Form::text('query', null, ['placeholder' => 'search the TES Forum']) !!}
                     </div>
                     <div class="form-row">
                     {!! Form::button('Go Find Stuff!', ['type' => 'submit', 'class' => 'button']) !!}

@@ -8,21 +8,21 @@ class PastesController extends Controller
 {
     public function getShow($hash)
     {
-        return redirect('http://paste.laravel.io/'.$hash);
+        return redirect('http://paste.techeasesol.com/'.$hash);
     }
 
     public function getCreate()
     {
-        return redirect('http://paste.laravel.io/');
+        return redirect('http://paste.techeasesol.com/');
     }
 
     public function getFork($hash)
     {
-        return redirect('http://paste.laravel.io/fork/'.$hash);
+        return redirect('http://paste.techeasesol.com/fork/'.$hash);
     }
 
     public function getRaw($hash)
     {
-        return redirect('http://paste.laravel.io/'.$hash.'/raw');
+        return redirect('http://paste.techeasesol.com/'.$hash.'/raw');
     }
 }

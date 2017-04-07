@@ -1,6 +1,6 @@
 <div class="search">
     {!! Form::open(['action' => 'Forum\ForumThreadsController@getSearch', 'method' => 'GET']) !!}
-        {!! Form::text('query', isset($query) ? $query : '', ['placeholder' => 'search the laravel.io forum']) !!}
+        {!! Form::text('query', isset($query) ? $query : '', ['placeholder' => 'search the TES Forum']) !!}
     {!! Form::close() !!}
 </div>
 

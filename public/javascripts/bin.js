@@ -1,5 +1,5 @@
 /**
- * Laravel.io Pastebin
+ * forum.techeasesol.com Pastebin
  */
 var PasteBin = (function($) {
 

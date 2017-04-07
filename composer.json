@@ -1,6 +1,6 @@
 {
-    "name": "laravelio/laravelio",
-    "description": "The source code for the Laravel.io community portal.",
+    "name": "techeasesolutions/forum",
+    "description": "The source code for the Laravel.io community portal adopted by TechEase Solutions.",
     "license": "MIT",
     "type": "project",
     "require": {
