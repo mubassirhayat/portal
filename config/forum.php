@@ -5,35 +5,38 @@ return [
         'All Threads' => [
             'tags' => '',
         ],
-        'Installation / Configuration' => [
-            'tags' => 'installation,configuration'
+        'Ideas Discussion' => [
+            'tags' => 'ideas,ideahub,creativeideas'
         ],
-        'Authentication / Security' => [
-            'tags' => 'authentication,security'
+        'Entrepreneurship' => [
+            'tags' => 'entrepreneurship,entrepreneurshipproject,entrepreneurshipgoals,entrepreneurstudents,entrepreneurshiptrainings,entrepreneurshipvillage,entrepreneurshiptip'
         ],
-        'Requests / Input / Responses' => [
-            'tags' => 'requests,input'
+        'Empowerment' => [
+            'tags' => 'womenempowerment,empowerment,brandempowerment,careergoals,productconsultancy,consultancyadvice'
         ],
-        'Session / Cache' => [
-            'tags' => 'session,cache'
+        'Freelancing' => [
+            'tags' => 'freelancing,upwork,fiverr,pepoleperhour,freelancer,99designs,guru,freelancingtips,freelancingguide'
         ],
-        'Database / Eloquent' => [
-            'tags' => 'database,eloquent'
+        'Programming | C++ / C# / Java' => [
+            'tags' => 'programming,programmingproblems,programmingschool,programmingforkids,programmingsucks,c,cplusplus,java,csharp,fsharp,jsharp,vb,php,javascript,go,r,python,ruby'
         ],
-        'Packages / IoC ' => [
-            'tags' => 'packages,ioc'
+        'Mobile Development' => [
+            'tags' => 'android,ios,androidwear,applewatch,iosgames,androidgames,firebase,uidesign,webservices,xcode,eclipse,androidstudio,androidlibs,ioslibs,rxreactive,kotlan,ionic,phonegap,xamarin'
         ],
-        'Views / Blade / Forms' => [
-            'tags'  => 'views,blade,forms'
+        'Web Development' => [
+            'tags'  => 'html,html5,css,css3,jquery,bootsrap,materializecss,zurbfoundation,googlematerialdesignlte,angular,react,backbonejs,ember,vuejs,grunt,bower,laravel,codeigniter,nodejs,zendframework,progressivewebapps,rubyonrails,django,yeoman,gulp,wordpress,drupal,joomla,wix'
         ],
-        'Mail / Queues' => [
-            'tags' => 'mail,queues'
+        'Database' => [
+            'tags'  => 'relationaldatabases,distributeddatabases,sql,nosql,mysql,sqlserver,oraclesql,mariadb,sqlite,postgresql,mongodb',
         ],
-        'Local Community Meetups' => [
-            'tags' => 'meetups'
+        'Server Management / DevOps' => [
+            'tags'  => 'servermanagement,cpanel,linuxserver,ubuntuserver,centos,debian,lampstack,htaccess,azure,aws,digitaloceans,linode,godaddy,github,gitlab,bitbucket,git,trello,asana,redmine,taskautomation,deployment,security',
         ],
-        'Laravel.io Site and Community' => [
-            'tags'  => 'laravelio',
+        'Blogging / Marketing / SEO' => [
+            'tags' => 'marketing,seo,facebookmarketing,twitter,instagram,reddit,google,blogging,nicheblogging,quicksupport,canva,adwords,keywordplanner,semrush,yoast,ppc,contentmarketing,prezi,quora,wistia,ask,disqus,picmonkey,pinterest'
+        ],
+        'Designing / Video / 3D Modeling' => [
+            'tags' => 'graphicdesigning,adobephotoshop,adobeillustrator,adobemuse,adobexd,coreldraw,aftereffects,cinema4d'
         ]
     ],
 ];
