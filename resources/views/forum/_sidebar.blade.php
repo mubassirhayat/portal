@@ -8,7 +8,7 @@
     {{-- $forumSections is set in the constructor of the ForumController class --}}
     @foreach ($forumSections as $sectionTitle => $attributes)
         <li>
-            <a {{ isset($attributes['active']) ? 'class="active"' : null  }} href="{{ action('Forum\ForumThreadsController@getIndex') }}{{ $attributes['tags'] ? '?tags=' . $attributes['tags'] : '' }}">{{ $sectionTitle }}
+            <a {{ isset($attributes['active']) ? 'class="active"' : null  }} href="{{ action('Forum\ForumThreadsController@getIndex') }}{{ $attributes['tags'] ? '?tags=' . $attributes['tags'] : '' }}{{ $sectionTitle ? '&tagTitle=' . $sectionTitle : '' }}">{{ $sectionTitle }}
             </a>
         </li>
     @endforeach
