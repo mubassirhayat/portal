@@ -1,15 +1,15 @@
 <?php
 
 // Home
-Route::group(['domain' => 'wiki.techeasesol.com'], function() {
-    Route::get('{wildcard}', 'HomeController@redirectToMainWebsite');
-});
-Route::group(['domain' => 'forum.techeasesol.com'], function() {
-    Route::get('{wildcard}', 'HomeController@redirectToMainWebsite');
-});
-Route::group(['domain' => 'forums.techeasesol.com'], function() {
-    Route::get('{wildcard}', 'HomeController@redirectToMainWebsite');
-});
+// Route::group(['domain' => 'wiki.techeasesol.com'], function() {
+//     Route::get('{wildcard}', 'HomeController@redirectToMainWebsite');
+// });
+// Route::group(['domain' => 'forum.techeasesol.com'], function() {
+//     Route::get('{wildcard}', 'HomeController@redirectToMainWebsite');
+// });
+// Route::group(['domain' => 'forums.techeasesol.com'], function() {
+//     Route::get('{wildcard}', 'HomeController@redirectToMainWebsite');
+// });
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::get('rss', 'HomeController@rss');
