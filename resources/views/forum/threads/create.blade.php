@@ -49,7 +49,7 @@
                     <li>
                         <label class="tag">
                             Will be update soon!
-                            {!! Form::radio('laravel_version', 0, true, ['disabled' => true]) !!}
+                            {!! Form::radio('laravel_version', 0, true, ['readonly' => true]) !!}
                         </label>
                     </li>
                 </ul>
