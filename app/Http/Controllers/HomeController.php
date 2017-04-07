@@ -24,6 +24,6 @@ class HomeController extends Controller
      */
     public function redirectToMainWebsite()
     {
-        return redirect('http://forum.techeasesol.com/forum');
+        return redirect('http://forum.techeasesol.com');
     }
 }
