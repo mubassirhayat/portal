@@ -6,37 +6,37 @@ return [
             'tags' => '',
         ],
         'Ideas Discussion' => [
-            'tags' => 'ideas,ideahub,creativeideas'
+            'tags' => 'ideas'
         ],
         'Entrepreneurship' => [
-            'tags' => 'entrepreneurship,entrepreneurshipproject,entrepreneurshipgoals,entrepreneurstudents,entrepreneurshiptrainings,entrepreneurshipvillage,entrepreneurshiptip'
+            'tags' => 'entrepreneurship'
         ],
         'Empowerment' => [
-            'tags' => 'womenempowerment,empowerment,brandempowerment,careergoals,productconsultancy,consultancyadvice'
+            'tags' => 'empowerment,productconsultancy,consultancyadvice'
         ],
         'Freelancing' => [
-            'tags' => 'freelancing,upwork,fiverr,pepoleperhour,freelancer,99designs,guru,freelancingtips,freelancingguide'
+            'tags' => 'freelancing'
         ],
         'Programming | C++ / C# / Java' => [
-            'tags' => 'programming,programmingproblems,programmingschool,programmingforkids,programmingsucks,c,cplusplus,java,csharp,fsharp,jsharp,vb,php,javascript,go,r,python,ruby'
+            'tags' => 'programming,programmingproblems,c,cplusplus,java,php,javascript,python,ruby'
         ],
         'Mobile Development' => [
-            'tags' => 'android,ios,androidwear,applewatch,iosgames,androidgames,firebase,uidesign,webservices,xcode,eclipse,androidstudio,androidlibs,ioslibs,rxreactive,kotlan,ionic,phonegap,xamarin'
+            'tags' => 'android,ios,firebase,uidesign,kotlan,ionic,phonegap,xamarin'
         ],
         'Web Development' => [
-            'tags'  => 'html,html5,css,css3,jquery,bootsrap,materializecss,zurbfoundation,googlematerialdesignlte,angular,react,backbonejs,ember,vuejs,grunt,bower,laravel,codeigniter,nodejs,zendframework,progressivewebapps,rubyonrails,django,yeoman,gulp,wordpress,drupal,joomla,wix'
+            'tags'  => 'html5,css3,laravel,nodejs,rubyonrails,django,wordpress,drupal'
         ],
         'Database' => [
-            'tags'  => 'relationaldatabases,distributeddatabases,sql,nosql,mysql,sqlserver,oraclesql,mariadb,sqlite,postgresql,mongodb',
+            'tags'  => 'relationaldatabases,distributeddatabases'
         ],
         'Server Management / DevOps' => [
-            'tags'  => 'servermanagement,cpanel,linuxserver,ubuntuserver,centos,debian,lampstack,htaccess,azure,aws,digitaloceans,linode,godaddy,github,gitlab,bitbucket,git,trello,asana,redmine,taskautomation,deployment,security',
+            'tags'  => 'servermanagement,cpanel,linuxserver,lampstack,htaccess,azure,aws,taskautomation,deployment,security',
         ],
         'Blogging / Marketing / SEO' => [
-            'tags' => 'marketing,seo,facebookmarketing,twitter,instagram,reddit,google,blogging,nicheblogging,quicksupport,canva,adwords,keywordplanner,semrush,yoast,ppc,contentmarketing,prezi,quora,wistia,ask,disqus,picmonkey,pinterest'
+            'tags' => 'marketing,seo,blogging,nicheblogging,adwords,contentmarketing'
         ],
         'Designing / Video / 3D Modeling' => [
-            'tags' => 'graphicdesigning,adobephotoshop,adobeillustrator,adobemuse,adobexd,coreldraw,aftereffects,cinema4d'
+            'tags' => 'graphicdesigning'
         ]
     ],
 ];

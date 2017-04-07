@@ -19,7 +19,7 @@ class ForumThreadsCreateTable extends Migration
             $table->text('body');
             $table->string('slug');
             $table->string('category_slug');
-            $table->integer('laravel_version');
+            $table->integer('laravel_version')->nullable();
             $table->integer('most_recent_reply_id');
             $table->integer('reply_count');
             $table->timestamps();
