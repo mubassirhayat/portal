@@ -1,7 +1,9 @@
 <?php
-namespace Lio\Providers;
 
-use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
+namespace App\Providers;
+
+use App\Events\ReplyWasCreated;
+use App\Listeners\SendNewReplyNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider
@@ -12,21 +14,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Lio\Events\SomeEvent' => [
-            'Lio\Listeners\EventListener',
+        ReplyWasCreated::class => [
+            SendNewReplyNotification::class,
         ],
     ];
-
-    /**
-     * Register any other events for your application.
-     *
-     * @param  \Illuminate\Contracts\Events\Dispatcher  $events
-     * @return void
-     */
-    public function boot(DispatcherContract $events)
-    {
-        parent::boot($events);
-
-        //
-    }
 }

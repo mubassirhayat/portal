@@ -1,29 +1,31 @@
 <?php
-namespace Lio\Http\Controllers;
+
+namespace App\Http\Controllers;
 
 class HomeController extends Controller
 {
-    /**
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function index()
+    public function show()
     {
-        return redirect()->action('Forum\ForumThreadsController@getIndex');
+        return view('home');
     }
 
-    /**
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function rss()
+    public function rules()
     {
-        return redirect()->home();
+        return view('rules');
     }
 
-    /**
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function redirectToMainWebsite()
+    public function terms()
     {
-        // return redirect('http://forum.techeasesol.com');
+        return view('terms');
+    }
+
+    public function privacy()
+    {
+        return view('privacy');
+    }
+
+    public function pastebin(string $hash = '')
+    {
+        return redirect()->away("https://paste.laravel.io/$hash");
     }
 }
